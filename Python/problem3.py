@@ -1,0 +1,22 @@
+# Create a class MathOps with a static method is_even(num) that returns True if the number is even.
+# Then call it both from the class and an instance
+
+
+class MathOps:
+    @staticmethod
+    def is_even(num):
+        if num%2==0:
+            return True
+        else:
+            return False
+
+
+#Using class
+print(MathOps.is_even(10))
+print(MathOps.is_even(9))
+
+obj=MathOps()
+
+#Using object
+print(obj.is_even(4))
+print(obj.is_even(7))
