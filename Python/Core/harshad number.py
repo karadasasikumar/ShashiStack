@@ -2,7 +2,7 @@
 
 # 18
 # Digits: 1 + 8 = 9
-# 18 ÷ 9 = 2 ✅ → Harshad
+# 18 ÷ 9 = 2  → Harshad
 
 n=int(input())
 
