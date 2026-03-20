@@ -15,7 +15,6 @@
 # print(st)
 
 #8th question
-
 # l=[10, 350, 18, 28, 350]
 # k=list(map(lambda x: id(x),l))
 # print(k)

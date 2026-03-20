@@ -5,7 +5,7 @@
 # k=list(map(lambda x: x+[5], l))
 # print(k)
 #from functools import reduce
-
+pri
 # d={"apple":100, "banana":40, "cherry":150}
 # print(d.keys())
 # print(d.values())
@@ -65,4 +65,20 @@
 
 #k=reduce(lambda x,y: x+y, [1,2,3])
 
+#
+# Use map() on a string to convert each character into its ASCII value
+# (using ord()). Print the result list.
 
+
+#
+# text="hello"
+#
+# result=list(map(ord,text))
+# print(result)
+
+# Use filter() to remove all vowels from a string and print the final string.
+
+# text="education"
+#
+# result="".join(filter(lambda x:x not in "aeiouAEIOU",text))
+# print(result)

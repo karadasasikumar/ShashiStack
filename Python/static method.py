@@ -2,8 +2,6 @@
 # language has to be dubbed thiz movie
 
 
-
-
 class Movie:
     lang="Telugu"
     def __init__(self,hero,director,tp):

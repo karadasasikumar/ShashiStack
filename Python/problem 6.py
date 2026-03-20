@@ -20,4 +20,4 @@ c1.display_specs()
 
 #afterchanging
 Car.change_wheels(6)
-c1.display_specs()
+c1.display_specs()..
