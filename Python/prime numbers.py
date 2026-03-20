@@ -1,3 +1,4 @@
+#print to avg prime numbers in Given range
 # def is_prime(n):
 #     fc=0
 #     for i in range(1,n+1):
@@ -24,5 +25,12 @@
 #         r=float(sum/c)
 #         print(f'{r:.3f}')
 
+#2nd question
+
+#print sum of all prime numbers
+
+def is_prime(n):
+    fc=0
+    for i in range(1,n+1):
 
 
