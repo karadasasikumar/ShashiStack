@@ -17,3 +17,15 @@ obj1=Iterator(5)
 for i in obj1:
     print(i)
 
+# in generator
+
+def Iterator(n):
+    i=1
+
+    while i<=n:
+        yield i
+        i+=1
+
+n=5
+for i in Iterator(n):
+    print(i)

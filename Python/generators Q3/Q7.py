@@ -17,3 +17,19 @@ obj1=Iterator("Shashii is a good boii")
 
 for i in obj1:
     print(i)
+
+
+# in generator
+
+def generator(sentence):
+    words=sentence.split()
+
+    for word in words:
+        yield word
+
+s="I love Shashi"
+
+for i in generator(s):
+    print(i)
+
+
